@@ -46,10 +46,10 @@ function clearEmployeeListOnLinkClick() {
   });
 }
 
-function clearEmployeeListOnLinkClick(){
-  let link = document.querySelector('a')
-  let ul = document.querySelector('ul')
-  link.addEventListener('click', function(event){
-    ul.innerHTML = ''
-  })
-}
+// function clearEmployeeListOnLinkClick(){
+//   let link = document.querySelector('a')
+//   let ul = document.querySelector('ul')
+//   link.addEventListener('click', function(event){
+//     ul.innerHTML = ''
+//   })
+// }
