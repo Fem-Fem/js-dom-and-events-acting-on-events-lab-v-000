@@ -19,7 +19,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  return $('.pics');
+  // return $('.pics');
 }
 
 //
