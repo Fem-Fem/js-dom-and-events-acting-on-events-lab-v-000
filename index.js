@@ -23,7 +23,7 @@ function addNewLiOnClick() {
   let x = false
   const main = document.getElementById('submit');
   main.addEventListener('click', function(event) {
-    alert('I was clicked!');
+    x = true;
   });
   if (x == true) {
     addNewElementAsLi();
