@@ -38,6 +38,10 @@ function addNewLiOnClick() {
   });
 }
 
+function clearEmployeeListOnLinkClick() {
+  const main = document.querySelector('input[type="submit"]');
+}
+
 //
 // function paragraphSelector() {
 //   return $('p');
