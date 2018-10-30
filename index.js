@@ -21,12 +21,12 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
   // return $('.pics');
   let x = false
-  const main = document.getElementById('main');
+  const main = document.getElementById('submit');
   main.addEventListener('click', function(event) {
     alert('I was clicked!');
   });
   if (x == true) {
-    addNewElementAsLi()
+    addNewElementAsLi();
   }
 }
 
