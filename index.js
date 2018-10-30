@@ -13,7 +13,7 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  x = retrieveEmployeeInformation();
+  let x = retrieveEmployeeInformation();
   document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${x}</li>`)
 }
 
