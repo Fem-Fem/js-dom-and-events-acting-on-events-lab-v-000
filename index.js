@@ -22,9 +22,12 @@ function addNewLiOnClick() {
   // return $('.pics');
   let x = false
   const main = document.getElementById('main');
-main.addEventListener('click', function(event) {
-  let x = true;
-});
+  main.addEventListener('click', function(event) {
+    alert('I was clicked!');
+  });
+  if (x == true) {
+    addNewElementAsLi()
+  }
 }
 
 //
