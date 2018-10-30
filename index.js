@@ -20,9 +20,9 @@ function retrieveEmployeeInformation() {
 //   return $('img:last');
 // }
 
-// function addNewElementAsLi() {
-//   return $('#baby-ninja');
-// }
+function addNewElementAsLi() {
+  return $('#baby-ninja');
+}
 //
 // function addNewLiOnClick() {
 //   return $('.pics');
