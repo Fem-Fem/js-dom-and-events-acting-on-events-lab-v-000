@@ -31,7 +31,7 @@ function clearInput() {
 }
 
 function addNewLiOnClick() {
-  const main = document.getElementById('input[type="submit"]');
+  const main = document.querySelector('input[type="submit"]');
   main.addEventListener('click', function(event) {
     addNewElementAsLi();
     clearInput
