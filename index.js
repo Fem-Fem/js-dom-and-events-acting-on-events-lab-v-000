@@ -20,6 +20,11 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   // return $('.pics');
+  let x = false
+  const main = document.getElementById('main');
+main.addEventListener('click', function(event) {
+  let x = true;
+});
 }
 
 //
