@@ -22,7 +22,8 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   // return $('#baby-ninja');
-  document.querySelector('.employee-list').innerHTML).to.include('Bob')
+  x = retrieveEmployeeInformation
+  document.querySelector('.employee-list').innerHTML = retrieveEmployeeInformation
 }
 
 function increaseRankBy(n) {
