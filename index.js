@@ -3,21 +3,21 @@
 //       event.preventDefault()
 //     })
 // }
-// 
+//
 // preventRefreshOnSubmit()
-// 
+//
 // let x = document.querySelector('input')
-// 
+//
 // function retrieveEmployeeInformation() {
 //   return x.value
 // }
-// 
+//
 // function addNewElementAsLi() {
 //   // return $('#baby-ninja');
 //   x = retrieveEmployeeInformation();
-//   document.querySelector('.employee-list').innerHTML = x;
+    document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`)
 // }
-// 
+//
 // // function addNewLiOnClick(){
 // //   let submit = document.querySelector('input[type="submit"]')
 // //   submit.addEventListener('click', function(event){
@@ -25,11 +25,11 @@
 // //     // resetInput()
 // //   })
 // // }
-// 
+//
 // function clearInput() {
 //   document.querySelector('input').value = ""
 // }
-// 
+//
 // function addNewLiOnClick() {
 //   const main = document.querySelector('input[type="submit"]');
 //   main.addEventListener('click', function(event) {
@@ -37,7 +37,7 @@
 //     clearInput();
 //   });
 // }
-// 
+//
 // function clearEmployeeListOnLinkClick() {
 //   const main = document.querySelector('a');
 //   const ul = document.querySelector('ul');
