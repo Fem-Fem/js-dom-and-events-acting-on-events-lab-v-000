@@ -36,6 +36,7 @@ function addNewLiOnClick() {
   const main = document.getElementById('input[type="submit"]');
   main.addEventListener('click', function(event) {
     addNewElementAsLi();
+    clearInput
   });
   if (x == true) {
   }
