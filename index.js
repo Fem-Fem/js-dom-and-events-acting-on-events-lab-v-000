@@ -17,6 +17,11 @@ function addNewElementAsLi() {
   x = retrieveEmployeeInformation();
   document.querySelector('.employee-list').innerHTML = x;
 }
+
+function addNewLiOnClick() {
+  return $('.pics');
+}
+
 //
 // function paragraphSelector() {
 //   return $('p');
