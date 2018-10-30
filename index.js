@@ -39,7 +39,7 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  const main = document.querySelector('input[type="submit"]');
+  const main = document.querySelector('employee-list');
 }
 
 //
