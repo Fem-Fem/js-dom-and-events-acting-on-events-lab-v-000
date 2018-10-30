@@ -18,7 +18,7 @@ function lastImageSelector() {
   return $('img:last');
 }
 
-function ninjaBabySelector() {
+function addNewElementAsLi() {
   return $('#baby-ninja');
 }
 
