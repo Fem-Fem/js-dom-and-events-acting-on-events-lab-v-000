@@ -38,8 +38,6 @@ function addNewLiOnClick() {
     addNewElementAsLi();
     clearInput
   });
-  if (x == true) {
-  }
 }
 
 //
