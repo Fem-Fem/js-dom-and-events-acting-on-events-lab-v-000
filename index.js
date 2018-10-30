@@ -5,3 +5,27 @@ function preventRefreshOnSubmit(){
 }
 
 preventRefreshOnSubmit()
+
+function retrieveEmployeeInformation() {
+  
+}
+
+function paragraphSelector() {
+  return $('p');
+}
+
+function lastImageSelector() {
+  return $('img:last');
+}
+
+function ninjaBabySelector() {
+  return $('#baby-ninja');
+}
+
+function divSelector() {
+  return $('.pics');
+}
+
+function retrieveEmployeeInformation() {
+  return $('#pic-list li:first-child');
+}
