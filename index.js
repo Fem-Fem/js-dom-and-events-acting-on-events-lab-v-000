@@ -31,7 +31,6 @@ function clearInput() {
 }
 
 function addNewLiOnClick() {
-  // return $('.pics');
   let x = false
   const main = document.getElementById('input[type="submit"]');
   main.addEventListener('click', function(event) {
