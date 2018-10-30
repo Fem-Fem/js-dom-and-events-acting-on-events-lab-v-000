@@ -26,15 +26,18 @@ function addNewLiOnClick(){
   })
 }
 
+function clearInput() {
+  document.querySelector('input').value = ""
+}
+
 function addNewLiOnClick() {
   // return $('.pics');
   let x = false
   const main = document.getElementById('input[type="submit"]');
   main.addEventListener('click', function(event) {
-    x = true;
+    addNewElementAsLi();
   });
   if (x == true) {
-    addNewElementAsLi();
   }
 }
 
