@@ -11,6 +11,12 @@ let x = document.querySelector('input')
 function retrieveEmployeeInformation() {
   return x.value
 }
+
+function addNewElementAsLi() {
+  // return $('#baby-ninja');
+  x = retrieveEmployeeInformation();
+  document.querySelector('.employee-list').innerHTML = x;
+}
 //
 // function paragraphSelector() {
 //   return $('p');
@@ -20,11 +26,6 @@ function retrieveEmployeeInformation() {
 //   return $('img:last');
 // }
 
-function addNewElementAsLi() {
-  // return $('#baby-ninja');
-  x = retrieveEmployeeInformation();
-  document.querySelector('.employee-list').innerHTML = x;
-}
 
 // function increaseRankBy(n) {
 //   let array = document.querySelectorAll('ul.ranked-list')
