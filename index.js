@@ -10,7 +10,7 @@ preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
   let x = document.querySelector('input')
-  return x
+  return x.value
 }
 //
 // function paragraphSelector() {
