@@ -9,14 +9,14 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation() {
 
 }
-
-function paragraphSelector() {
-  return $('p');
-}
-
-function lastImageSelector() {
-  return $('img:last');
-}
+//
+// function paragraphSelector() {
+//   return $('p');
+// }
+//
+// function lastImageSelector() {
+//   return $('img:last');
+// }
 
 function addNewElementAsLi() {
   return $('#baby-ninja');
