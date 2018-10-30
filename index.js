@@ -8,7 +8,6 @@ preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
   return document.querySelector('input')
-
 }
 //
 // function paragraphSelector() {
@@ -19,14 +18,14 @@ function retrieveEmployeeInformation() {
 //   return $('img:last');
 // }
 
-function addNewElementAsLi() {
-  return $('#baby-ninja');
-}
-
-function addNewLiOnClick() {
-  return $('.pics');
-}
-
-function retrieveEmployeeInformation() {
-  return $('#pic-list li:first-child');
-}
+// function addNewElementAsLi() {
+//   return $('#baby-ninja');
+// }
+//
+// function addNewLiOnClick() {
+//   return $('.pics');
+// }
+//
+// function retrieveEmployeeInformation() {
+//   return $('#pic-list li:first-child');
+// }
