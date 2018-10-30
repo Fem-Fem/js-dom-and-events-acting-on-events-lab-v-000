@@ -30,13 +30,13 @@ function clearInput() {
   document.querySelector('input').value = ""
 }
 
-function addNewLiOnClick() {
-  const main = document.querySelector('input[type="submit"]');
-  main.addEventListener('click', function(event) {
-    addNewElementAsLi();
-    clearInput();
-  });
-}
+// function addNewLiOnClick() {
+//   const main = document.querySelector('input[type="submit"]');
+//   main.addEventListener('click', function(event) {
+//     addNewElementAsLi();
+//     clearInput();
+//   });
+// }
 
 //
 // function paragraphSelector() {
