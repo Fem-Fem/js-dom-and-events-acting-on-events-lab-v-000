@@ -7,7 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
-  
+
 }
 
 function paragraphSelector() {
@@ -22,7 +22,7 @@ function ninjaBabySelector() {
   return $('#baby-ninja');
 }
 
-function divSelector() {
+function addNewLiOnClick() {
   return $('.pics');
 }
 
