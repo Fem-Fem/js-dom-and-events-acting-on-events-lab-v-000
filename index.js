@@ -18,10 +18,18 @@ function addNewElementAsLi() {
   document.querySelector('.employee-list').innerHTML = x;
 }
 
+function addNewLiOnClick(){
+  let submit = document.querySelector('input[type="submit"]')
+  submit.addEventListener('click', function(event){
+    addNewElementAsLi()
+    resetInput()
+  })
+}
+
 function addNewLiOnClick() {
   // return $('.pics');
   let x = false
-  const main = document.getElementById('submit');
+  const main = document.getElementById('input[type="submit"]');
   main.addEventListener('click', function(event) {
     x = true;
   });
