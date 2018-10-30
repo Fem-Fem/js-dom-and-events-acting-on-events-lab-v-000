@@ -6,8 +6,11 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit()
 
+
+
 function retrieveEmployeeInformation() {
-  return document.querySelector('input')
+  let x = document.querySelector('input')
+  return x
 }
 //
 // function paragraphSelector() {
